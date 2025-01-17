@@ -472,13 +472,14 @@ int main(int argc, char** argv) {
     (int)(sizeof(draculaflow5) / sizeof(const char*)),
   };
 
-  #ifdef DEBUG
+#ifdef DEBUG
   srand(69);
-  #else
+#else
   struct timeval tv;
   gettimeofday(&tv, NULL);
-  srand(tv.tv_sec * 1000000 + tv.tv_usec); // Seed using milliseconds for higher fidelity
-  #endif
+  unsigned int seed = (tv.tv_sec * 1000000) ^ tv.tv_usec;
+  srand(seed);
+#endif
 
   while((ch = getopt(argc, argv, opts)) != -1) {
     if (options_seen[(int)ch]) {
