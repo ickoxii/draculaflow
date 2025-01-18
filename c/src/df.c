@@ -391,7 +391,7 @@ const char* draculaflow5[] = {
   "I'm waiting for the red-light district to open, you fuckhead. Use your fucking head.",
   "Pulled out the Luger, put his ass in a to-go box. Little rib cage ass motherfucker, I put a hole in that boy.",
   "She listens to rock and roll, I smoke rock and roll.",
-  "Psychologically terrorized the op until he killed himself at the Michael Jordon Stakehouse.",
+  "Psychologically terrorized the op until he killed himself at the Michael Jordon SteakHouse.",
   "One thing about me, I only fuck in fluorescent lighting. I need to see absolutely everything.",
   "Some of you have never heated up a banana peel in the microwave for 8 seconds to replicate the warmth of a vagina, and it shows.",
   "I come from nothing. I started this shit.",
