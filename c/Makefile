@@ -25,7 +25,9 @@ SOURCES = $(wildcard $(SRC_DIR)/*.c)
 OBJECTS = $(subst src,build,$(subst .c,.o,$(SOURCES)))
 
 # Targets
-all: build
+all:
+	mkdir -p build bin
+	$(MAKE) build
 .PHONY: all
 
 info:
